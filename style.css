@@ -1,0 +1,889 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f9fc;
+  /* overflow-x: hidden; */
+}
+/* ........header section ....... */
+@font-face {
+  font-family: myFont;
+  src: url(images/Amazing\ Kids.ttf);
+}
+
+.navbar> h5 {
+  font-family: myFont;
+  color: white;
+}
+
+.navbar {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+nav>ul {
+  display: none;
+}
+
+@font-face {
+  font-family: fontMy;
+  src: url(images/ClashDisplay-Bold.otf);
+}
+
+.sub-heading > h2 {
+  font-family: fontMy;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  line-height: 1.3;
+}
+
+@font-face {
+  font-family: satosh;
+  src: url(images/Satoshi-Medium.otf);
+}
+
+.sub-heading {
+  position: relative;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.vector {
+  position: absolute;
+  bottom: 1;
+  right: 5%;
+  padding: 0.3em;
+  transform: rotate(70deg);
+}
+
+.sub-heading > p {
+  font-family: satosh;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #e7e7e7;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.header-button {
+  text-align: center;
+  padding: 1em;
+}
+
+.first-butt {
+  background: blue;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5em;
+  border-radius: 2px;
+  font-family: satosh;
+  font-size: 10px;
+  font-style: normal;
+}
+
+.second-butt {
+  background: white;
+  color: blue;
+  border: 1px solid white;
+  padding: 0.5em;
+  border-radius: 2px;
+  font-family: satosh;
+  font-size: 10px;
+  font-style: normal;
+}
+
+.img-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #ccdbf0;
+  padding: 1em;
+}
+
+@media screen and (min-width: 400px) {
+  .sub-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub-heading > h2,
+  .sub-heading > p {
+    text-align: left;
+  }
+
+  .sub-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .vector {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    padding: 0.3em;
+    transform: rotate(20deg);
+  }
+
+    .menu-menu {
+        display: none;
+    }
+
+  nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: #AAC4E6;
+    font-family: Satosh;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .nav-button {
+    border: none;
+    background: white;
+    color: blue;
+    padding: 5px;
+    font-family: Satosh;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+ }
+}
+
+/* ......maim....... */
+main {
+  padding: 1em;
+}
+.crown > h3 {
+  font-family: fontMy;
+  font-size: 24px;
+  font-weight: 700;
+  transform: lowercase;
+  text-align: center;
+  line-height: 2;
+}
+
+.sub-main > p {
+  font-family: satosh;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #a1a1a1;
+  line-height: 2;
+  text-transform: capitalize;
+}
+
+.sub-main > button {
+  background: blue;
+  color: #fff;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  margin-top: 16px;
+  font-family: satosh;
+}
+
+.sub-main {
+  text-align: center;
+
+  /* padding: 1em; */
+}
+
+.crown {
+  position: relative;
+}
+
+.crown > img {
+  position: absolute;
+  top: 0;
+  right: 95%;
+}
+
+.session {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 24px;
+}
+
+.sess {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 3em;
+}
+
+.sessionn {
+  display: flex;
+  font-family: satosh;
+  font-weight: 700;
+  font-size: 10px;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+}
+
+.double {
+  padding: 1em;
+  background-image: url(images/Vector\\(5\)\\(copy\1\).svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+}
+
+.framee {
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+@media screen and (min-width: 400px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 2em 0 2em ;
+  }
+
+  .sub-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .crown > h3,
+  .sub-main > p {
+    text-align: left;
+    line-height: 1.3;
+  }
+
+  .double {
+    padding: 1em;
+    background-image: url(images/Vector\\(5\)\\(copy\1\).svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .framee {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  .crown {
+    position: relative;
+  }
+
+  .crown > img {
+    position: absolute;
+    bottom: 100%;
+    right: 100%;
+    /* padding: 0.5em; */
+  }
+}
+
+/* ........summary...... */
+
+.summary-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+  /* text-align: center; */
+}
+
+.summary-header > h3 {
+  font-family: fontMy;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.summary-header > p {
+  font-family: satosh;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1.5;
+  color: #a1a1a1;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.summary-header > img {
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.summary-box {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 1em;
+  background: #fff;
+}
+
+.summary-box > h5 {
+  font-family: satosh;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.summary-box > P {
+  font-family: satosh;
+  color: #a1a1a1;
+  font-weight: 500;
+  font-size: 10px;
+  font-style: normal;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+.summary-container {
+  display: flex;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.summaries {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 400px) {
+    summary {
+        display: flex;
+        gap: 5em;
+        align-items: center;
+    }
+}
+
+/* .......section....... */
+
+
+.semi-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 1em;
+    margin-top: 5em;
+    
+     /* margin: 0 auto; */
+}
+
+.semi-section > h4 {
+    font-family: fontMy;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    max-width: 80%;
+}
+
+.semi-section>P {
+    font-family: satosh;
+    color: #a1a1a1;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.sub-navbar > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+.sub-navbar > ul > li > a{
+    text-decoration: none;
+    color: #A1A1A1;
+    font-family: Satosh;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sub-navbar>ul>li>a:hover {
+    color: blue;
+}
+
+sub-section {
+    width: 270px;
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+    gap: 1em;
+    grid-template-columns: 120px 120px;
+    margin-top: 2em;
+}
+
+@media screen and (min-width: 400px) {
+    sub-section{
+        min-width: 420px;
+        margin: 0 auto;
+        grid-template-columns: 150px 150px 150px;
+}
+
+    .semi-section>h4 {
+        font-size: 34px;
+    }
+
+
+}
+
+.card{
+    background: white;
+    display: flex;
+    max-width: 194px;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.5em;
+    padding: 8px 0 8px 0;
+    align-items: center;
+}
+
+
+
+.ratings {
+    font-family: Satosh;
+    color: #A1A1A1;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    gap: 6em;
+
+}
+
+.job {
+    max-width: 100px;
+    color: #1E5DCE;
+    border-radius: 16px;
+    background: rgba(30, 93, 206, 0.20);
+    padding: 5px ;
+    text-align: center;
+}
+
+.card > h4 {
+    color: #000F24;
+    width: 100px;
+    font-family: fontMy;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.times {
+    display: flex;
+    gap: 1em;
+}
+.time {
+    color: #A1A1A1;
+    font-family: Satosh;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    
+}
+
+.author-bill {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    font-family: Satosh;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    /* margin-bottom: 1em; */
+    
+}
+
+.author-bill > P {
+    color: blue;
+
+}
+
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #000;
+    
+}
+
+.section-button {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 1em;
+    
+}
+.section-button > button {
+    background: blue;
+    padding: 1em;
+    border: none;
+    color: #FFF;
+    font-family: Satosh;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+/* .......discussion......... */
+
+
+
+.client-discussion {
+    display: block;
+}
+
+.client-discussion {
+    text-align: center;
+    /* padding: 5em 10em 5em 10em; */
+}
+
+.discussion > h3 {
+    color: #000F24;
+    font-family: fontMy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.discussion > P {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #A1A1A1;
+    text-align: center;
+    font-family: Satosh;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: capitalize;
+}
+
+.discussion-boxes {
+    display: flex;
+    gap: 2em;
+    width:100% ;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width: 500px;
+    min-height: 100px;
+    background: white;
+    border-radius: 10px;
+    padding: 1em;
+    /* border: 1px solid red; */
+}
+
+.box > p {
+    width: 300px;
+    color: #A1A1A1;
+    font-family: Satosh;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.box-profile {
+    display: flex;
+    gap: 5px;
+    text-transform: capitalize;
+    margin-top: 1em;
+}
+
+.profile > h5 {
+    color: #000;
+    font-family: Satosh;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+.profile >p {
+    color: #A1A1A1;
+    font-family: Satosh;
+    font-size: 8px;
+    
+}
+
+/* .......article........ */
+
+
+article {
+    background: blue;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+
+article > h3 {
+    color: #FFF;
+    max-width: 600px;
+    text-align: center;
+    font-family: fontMy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* text-transform: lowercase; */
+}
+
+article > p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satosh;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+article > button {
+    background: #fff;
+    color: blue;
+    padding: 5px;
+    border: none;
+    font-family: Satosh;
+    font-size: 10px;
+    margin-top: 0.5em;
+}
+
+aside {
+    margin-top: 3em;
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.5em;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.aside-header > h4 {
+    color: #000F24;
+    font-family: fontMy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.aside-header>p {
+    width: 250px;
+    margin: 0 auto;
+    color: #A1A1A1;
+    text-align: center;
+    font-family: Satosh;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: capitalize;
+}
+
+.blue {
+    display: flex;
+    max-width: 393.797px;
+    justify-content: space-between;
+    align-items: center;
+    color: #004DB3;
+    font-family: Satosh;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.small{
+    color: #A1A1A1;
+    max-width: 394px;
+    font-family: Satosh;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: capitalize;
+}
+
+.symbols{
+    /* color: #000F24; */
+    font-family: Satosh;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: lowercase;
+    padding: 0.5em 0 0.5em 0;
+    display: flex;
+    max-width: 394px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #A1A1A1;
+}
+
+@media screen and(min-width:400px) {
+    
+}
+
+
+/* ......footer........ */
+
+footer {
+    background: #000F24;
+    padding: 1em;
+    /* margin: 1em; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em; */
+}
+
+.footer-header > h5 {
+    font-family: myFont;
+    color: #FFF;
+}
+
+.links > h5 {
+    font-family:fontMy;
+    color: #fff;
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.footer-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.footer-header > p {
+    color: #FFF;
+    width: 200px;
+    font-family: Satosh;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Satosh;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+.footer-sub > h5 {
+    font-family: fontMy;
+    color: #fff;
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width:400px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
